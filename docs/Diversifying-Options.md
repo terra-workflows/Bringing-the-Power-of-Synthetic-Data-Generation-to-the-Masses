@@ -1,18 +1,17 @@
 ## Goals
 
-1. Extend the mutation spike-in workflow to make it possible to introduce other variant types than single nucleotide variants (SNVs).
+Provide more user-configurable options for generating read data and spiking in mutations.
+
+Extend the mutation spike-in workflow (a WDL using Bamsurgeon) to make it possible to introduce other variant types than single nucleotide variants (SNVs).
 
 ## Proposed tasks
-A WDL uses Bamsurgeon for spiking variants 
-Currently the WDL only supports SNVs
-Adding INDELs & SVs
 
+### Generating read data
 
-### Read data generation
+- Assess what other options of the NEAT Genreads tool that we'd like to expose through configurable parameters.
 
-1. TBD
+### Spiking in mutations
 
-### More variant types
-
-1. TBD
-
+- [x] Add Indels to Bamsurgeon WDL
+- [ ] Add CNVs and SVs to Bamsurgeon WDL
+- Assess what other options of the BAMSurgeon tool that we'd like to expose through configurable parameters.

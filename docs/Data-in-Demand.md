@@ -4,11 +4,11 @@ Determine what kind(s) of data would have the highest impact as a community reso
 
 ## Proposed tasks
 
-1. Assess what types of genomic data are most commonly used in human genomics research and stratify by technical characteristics (library type, sequencing technology, depth of coverage etc).
+- Assess what types of genomic data are most commonly used in human genomics research and stratify by technical characteristics (library type, sequencing technology, depth of coverage etc).
 
-2. Assess the current landscape of data that can be shared openly, whether "real" or synthetic. What is already available and what needs do existing open datasets address? 
+- Assess the current landscape of data that can be shared openly, whether "real" or synthetic. What is already available and what needs do existing open datasets address? 
 
-3. (stretch) Evaluate whether there are tools other than the NEAT Read Simulator that we should consider using depending on the type of data resource we decide to focus on. What are the strengths and weaknesses of the available tools? 
+- (stretch) Evaluate whether there are tools other than the NEAT Read Simulator that we should consider using depending on the type of data resource we decide to focus on. What are the strengths and weaknesses of the available tools? 
 
 ## A Roadmap for Synthetic Data - What's Useful? What's Attainable? What Can We Aspire To?
 
@@ -30,7 +30,7 @@ QC of existing analysis tools:
 
 ### What would a public-facing synthetic data set resource look like?   
 
-**1. A curated selection of pre-made public synthetic data sets (data)**
+#### 1. A curated selection of pre-made public synthetic data sets (data)
 
     a. WES and GWS 
     b. Cohort sizees of hundreds to thousands
@@ -38,11 +38,11 @@ QC of existing analysis tools:
     d Pre-selected read depths (TBD)
     e. Pre-defined variant types (TBD)
     
-    **Questions**
+    _Questions_
     - Who would pay to generate and host these sets?   
-    - Who would be able to access and would there be a nominal fee?  
+    - How can we make this fully public and sustainable/free?  
     
-**2. Self-service (choose your own mutation)**
+#### 2. Self-service (choose your own mutation)
 Researchers could access this set of tools via a platform interface that would allow them to control the parameters of their synthetic data set to reproduce published results.   
    - Source data   
    - Cohort size  
@@ -52,17 +52,15 @@ Researchers could access this set of tools via a platform interface that would a
        
 
 ### Aspirational goals  
-**Non-human genomes**
+
+#### Non-human genomes
    - Mock metagenome communities
    - What is a (non-human) whole genome?  
    - Can you even have a reference genome?   
    
-**Polygenic diseases**  
-
-
-### The ultimate holy grail      
-- Can we generate a totally synthetic "genome" that is functionally correct but not based on any one public-access genome?
-- Can we integrate allelic frequencies from the human population?   
+#### Polygenic disease    
+   - Can we generate a totally synthetic "genome" that is functionally correct but not based on any one public-access genome? Could ML do this?
+   - Can we integrate allelic frequencies from the human population?   
 
 ------
 
