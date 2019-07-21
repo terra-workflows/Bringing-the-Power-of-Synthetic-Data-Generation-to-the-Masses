@@ -2,7 +2,7 @@
 
 We outlined four top objectives with tangible deliverables that would accommodate people of different backgrounds, skillsets and interests, and formed working groups to tackle them. Here's an overview of the four main buckets of work we identified:
 
-![Project design](../images/project-design.png)
+![Project design](./../images/project-design.png)
 
 1. [Data in demand](../docs/Data-in-Demand.md): Search the research space to determine specifications of datasets (exomes? wgs? what coverage?) that would be most useful to generate as freely available resources so that people don't have to generate them from scratch every time. Most suitable for people with high scientific chops but low computational chops.
 
@@ -38,16 +38,16 @@ We summarized our results [here](./results.md) on Day 2, and later presented a m
 
 ## Contributors
 
-Ernesto Andrianantoandro
-Dan Rozelle
-Jay Moore
-Rory Davidson
-Roma Kurilov
-Vrinda Pareek
+Ernesto Andrianantoandro  
+Dan Rozelle  
+Jay Moore  
+Rory Davidson  
+Roma Kurilov  
+Vrinda Pareek  
 
-Adelaide Rhodes
-Allie Hajian
-Anton Kovalsky
-Ruchi Munshi
-Tiffany Miller
-Geraldine Van der Auwera
+Adelaide Rhodes  
+Allie Hajian  
+Anton Kovalsky  
+Ruchi Munshi  
+Tiffany Miller  
+Geraldine Van der Auwera  
