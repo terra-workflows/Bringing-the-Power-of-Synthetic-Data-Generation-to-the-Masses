@@ -10,7 +10,7 @@ The immediate goal is to build on existing open-source tools to make it easier t
 
 ## Current status + next steps
 
-### TODO: Add roadmap / ideas for improvements
+### TODO: Add status summary + roadmap / ideas for improvements
 
 ----
 

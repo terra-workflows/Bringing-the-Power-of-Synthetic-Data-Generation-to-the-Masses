@@ -49,7 +49,7 @@ This workflow annotates functional predictions using SnpEff and GEMINI after nor
 
 This section will list any new workflows developed as part of the hackathon.
 
-### Wanted
+### In progress
 
-- Quality control (see QC objective section for details)
+- CollectQualityMetrics (needs documentation)
 
