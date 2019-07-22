@@ -32,7 +32,7 @@ Creating an accurate synthetic dataset of that size for the original project was
 
 ### FAIR Data hackathon at Bio-IT (Boston, MA, USA), April 2019
 
-[Terra workspace](https://app.terra.bio/#workspaces/bioit-hackathon/BioIT-Hackathon-2019-Synthetic-Data-Team)
+[Terra workspace](https://app.terra.bio/#workspaces/bioit-hackathon/BioIT-Hackathon-2019-Synthetic-Data-Team)   
 [Github repository](https://github.com/NCBI-Hackathons/Bringing-the-Power-of-Synthetic-Data-Generation-to-the-Masses)
 
 Here's an overview of the four main buckets of work we pursued:
