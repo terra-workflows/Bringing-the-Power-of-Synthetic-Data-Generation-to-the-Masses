@@ -4,16 +4,16 @@ We summarized our results into the following slides on Day 2 of the hackathon, a
 
 ### Working group #1: What kind of datasets would be useful to the community?
 
-![alt text](.bioit-group1.png)
+![Group 1 report](./bioit-group1.png)
 
 ### Working group #2: Enable generation of more data types and more variant types 
 
-![alt text](.bioit-group2.png)
+![Group 2 report](./bioit-group2.png)
 
 ### Working group #3: Reduce cost and runtime of our workflows
 
-![alt text](.bioit-group3.jpg)
+![Group 3 report](./bioit-group3.jpg)
 
 ### Working group #4: Evaluate whether the synthetic data we generate is suitable
 
-![alt text](.bioit-group4.png)
+![Group 4 report](./bioit-group4.png)
