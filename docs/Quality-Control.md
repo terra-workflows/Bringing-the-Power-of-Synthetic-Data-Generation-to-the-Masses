@@ -4,8 +4,6 @@ Prototype methods to validate that the synthetic datasets we produce are appropr
 
 ## Proposed tasks
 
-See the README about the workflows in the `workflows` directory for background details on the relevant original workflows.
-
 1. Determine what QC metrics we care about (eg coverage, theoretical het sensitivity etc) and how we can collect them.
 
 2. Develop tooling (workflow and/or notebook) to collect metrics and plot them for a single sample (to get the technical properties of our synthetic data).
@@ -30,3 +28,19 @@ https://github.com/gatk-workflows/five-dollar-genome-analysis-pipeline/blob/mast
 And here's the Terra workspace that showcases that pipeline (which contains output metrics files): 
 https://app.terra.bio/#workspaces/help-gatk/five-dollar-genome-analysis-pipeline
 
+### Current status and next steps
+
+At the Bio-IT hackathon, we developed a WDL that uses a Picard tool to collect quality control metrics, and a prototype QC notebook to visualize those metrics. The WDL takes an array of synthetic BAM files and a single BAM file with real data to use as point of comparison. There is an option to run on either WGS or exomes, which selects the appropriate metrics collection tool. The notebook takes those outputs and generates several tables and plots for a set of QC metrics.
+
+#### Ideas for improving the workflow
+- Update the Picard commands to use them from GATK 4 and use the GATK docker.
+- Improve the somewhat clunky implementation of the switch between WGS and exome.
+- Are there other Picard metrics collection tools we want to add?
+
+#### Ideas for improving the QC notebook prototype
+- Parameterize the input file paths instead of hardcoding them.
+- Decide what metrics we care the most about evaluating and how we want to visualize them.
+- How could we compare the coverage distribution in the synthetic data against the real data reference?
+
+#### Other ideas for doing QC
+- Are there other QC tools we could leverage?

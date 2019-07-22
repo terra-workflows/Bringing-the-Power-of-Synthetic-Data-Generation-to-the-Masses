@@ -4,11 +4,11 @@ Reduce the runtime and cost of the workflows involved in synthetic data generati
 
 ## Proposed tasks
 
-1. Determine which workflow(s) to prioritize.
+- Determine which workflow(s) to prioritize.
 
-2. Identify bottlenecks and propose streamlined approach.
+- Identify bottlenecks and propose streamlined approach.
 
-3. Prototype proposed solution(s) and test for runtime and/or cost reductions.
+- Prototype proposed solution(s) and test for runtime and/or cost reductions.
 
 ## Original workflows
 
