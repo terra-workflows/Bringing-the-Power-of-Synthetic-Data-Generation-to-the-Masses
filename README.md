@@ -53,10 +53,15 @@ TODO: Summarize work and results
 
 The following people have all contributed to this project in some form even though some may not show up in the Github records. 
 
-#### GATK workshop participants
+### BOSC CoFest July 2019
+Tony Zeyu Yang
+Richard Lupat
+Peter Diakumis
+
+#### GATK workshop May 2019 
 TODO: Add Helsinki workshop participants who wish to be listed
 
-#### Bio-IT participants
+#### NCBI Bio-IT April 2019 
 Ernesto Andrianantoandro   
 Dan Rozelle   
 Jay Moore   
