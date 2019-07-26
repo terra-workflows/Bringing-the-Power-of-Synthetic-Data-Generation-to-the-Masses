@@ -1,0 +1,14 @@
+input_bam:
+  class: File
+  path: NA12878_24RG_small.hg38.bam
+ref_fasta:
+  class: File
+  path: Homo_sapiens_assembly38.fasta
+wgs_coverage_interval_list:
+  class: File
+  path: scattered.interval_list
+metrics_filename: metrics_file
+read_length: 150
+ref_fasta_index:
+  class: File
+  path: Homo_sapiens_assembly38.fasta.fai
