@@ -1,0 +1,5 @@
+#The bam file and reference genome fasta wwere too large to put in the github, these files can be downloaded from the public google bucket by using the Google Cloud SDK tools.
+
+gs://gatk-test-data/wgs_bam/NA12878_24RG_hg38/NA12878_24RG_small.hg38.bam
+
+gs://broad-references/hg38/v0/Homo_sapiens_assembly38.fasta
