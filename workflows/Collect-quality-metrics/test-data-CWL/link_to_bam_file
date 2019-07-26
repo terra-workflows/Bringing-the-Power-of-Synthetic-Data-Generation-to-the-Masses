@@ -1,0 +1,3 @@
+#The bam file was too large to put in the github, it can be downloaded from the public google bucket by using the Google Cloud SDK tools.
+
+gs://gatk-test-data/wgs_bam/NA12878_24RG_hg38/NA12878_24RG_small.hg38.bam
