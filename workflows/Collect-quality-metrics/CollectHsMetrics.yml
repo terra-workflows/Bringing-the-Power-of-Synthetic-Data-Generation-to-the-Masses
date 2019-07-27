@@ -1,0 +1,16 @@
+input_bam:
+  class: File
+  path: /Users/tony/Desktop/NA12878_24RG_small.hg38.bam
+ref_fasta:
+  class: File
+  path: /Users/tony/Desktop/Homo_sapiens_assembly38.fasta
+target_interval_list:
+  class: File
+  path: /Users/tony/Desktop/scattered.interval_list
+bait_interval_list:
+  class: File
+  path: /Users/tony/Desktop/scattered.interval_list
+metrics_filename: metrics_file
+ref_fasta_index:
+  class: File
+  path: /Users/tony/Desktop/Homo_sapiens_assembly38.fasta.fai
